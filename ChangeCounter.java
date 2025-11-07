@@ -18,7 +18,7 @@ public class ChangeCounter {
  } */
 
   public static int countChange(final int money, final int[] coins) {
-    // Se crea un array que almacenara el numero de formas de dar cambio
+    // Se crea un array. que almacenara el numero de formas de dar cambio
     // para cada cantidad desde 0 hasta 'money',
     int [] formas = new int [money + 1];
     
