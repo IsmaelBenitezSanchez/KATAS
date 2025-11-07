@@ -15,7 +15,7 @@ public class ChangeCounter {
     int resultado = noPrimero + conPrimero;
     
     return resultado;
-  } */
+ } */
 
   public static int countChange(final int money, final int[] coins) {
     // Se crea un array que almacenara el numero de formas de dar cambio
