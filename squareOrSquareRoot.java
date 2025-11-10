@@ -3,7 +3,7 @@ public class squareOrSquareRoot {
         // Crear un array resultado de mismo tamaño
         int[] resultado = new int[numeros.length];
 
-        //Recorrer el array original
+        //Recorrer el array numeros
         for(int i = 0; i < numeros.length; i++) {
             //Obtener la raiz cuadrada entera
             int raiz = (int) Math.sqrt(numeros[i]);
