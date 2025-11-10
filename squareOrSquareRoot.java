@@ -22,3 +22,15 @@ public class squareOrSquareRoot {
         return resultado;
     }
 }
+
+/* 
+1. El método recibe una lista de números.
+
+2. Recorre cada número y para cada uno calcula su raíz cuadrada entera.
+
+3. Verifica si la raíz al cuadrado es igual al número original, lo que significa que es cuadrado perfecto.
+
+4. Si es cuadrado perfecto, pone la raíz cuadrada como resultado, si no, pone el número original al cuadrado.
+
+5. Devuelve un array con los valores calculados para cada elemento. 
+*/
