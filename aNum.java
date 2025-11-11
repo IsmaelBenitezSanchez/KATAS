@@ -5,7 +5,7 @@ public class aNum {
     }
     public static long aNum(char[] a) {
         // Usamos un acumulador de tipo long por seguridad, ya que 8 digitos
-        // pueden superar el limite de int. Extraemos cada digitp y construimos
+        // pueden superar el limite de int. Extraemos cada digito y construimos
         // el numero como hariamos manualmente 
         long valor = 0;
         for (int i = 0; i < 8; i++) {
