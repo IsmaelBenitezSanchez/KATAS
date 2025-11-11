@@ -20,10 +20,10 @@ public class tieneFormatoNIF{
         char ultima = a[8];
         return esLetraMayuscula(ultima) && ultima != 'Ñ';
     }
-    static boolean esLetraMayuscula(char c) {
-        return 'A' <= c && c <= 'Z';
+    static boolean esLetraMayuscula(char caracter) {
+        return 'A' <= caracter && caracter <= 'Z';
     }
-    static boolean esDigito(char c) {
-        return '0' <= c && c <= '9';
+    static boolean esDigito(char caracter) {
+        return '0' <= caracter && caracter <= '9';
     }
 }
