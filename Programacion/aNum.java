@@ -1,5 +1,6 @@
 public class aNum {
     // Devolver el numero entero representado por los 8 primeros digitos del NIF
+    // Dar caracter y lo convierte a digito
     public static int aDigito (char c) {
         return c - '0';
     }
