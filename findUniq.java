@@ -1,16 +1,20 @@
 public class findUniq {
     public static double findUniq (double arr[]){
-        for (int i = 0; i < arr.length; i++){
-            int contador = 0;
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[i] == arr[j]) {
-                    contador++;
-                }
+        double valorRepetido = arr[0];
+        double noRepetido = arr[1]; 
+
+        if (valorRepetido != noRepetido){
+            if (valorRepetido != arr[2]){
+                return valorRepetido;
+            } else {
+                return noRepetido;
             }
-            if (contador == 1) {
+        }
+        for (int i = 2; i < arr.length; i++){
+            if (arr[i] != valorRepetido){
                 return arr[i];
             }
         }
-        return -1;
+        return arr[0];
     }
 }

@@ -10,7 +10,7 @@ public class tieneFormatoNIF{
         }
         // Comprobamos individualmente cada uno de los 8 primeros digitos
         // Si alguno no cumple, salimos antes con false
-        for (int i = 0; i < 8, i++) {
+        for (int i = 0; i < 8; i++) {
             if (!esDigito(a[i])){
                 return false;
             }

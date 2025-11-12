@@ -13,6 +13,6 @@ public class aNum {
             // Acumulacion decimal
             valor = valor * 10 + aDigito(a[i]);
         }
-        return valor
+        return valor;
     }
 }

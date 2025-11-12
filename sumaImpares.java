@@ -3,10 +3,10 @@ public class sumaImpares {
         if (a > b) return 0;
         int suma = 0;
         for (int i = a; i <= b; i++) {
-            if (i % 2 = 0) {
+            if (i % 2 == 0) {
                 suma += i;
             }
         }
-        return 0;
+        return suma;
     }
 }

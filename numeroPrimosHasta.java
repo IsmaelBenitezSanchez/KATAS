@@ -13,10 +13,13 @@ public class numeroPrimosHasta {
 
 
     public static int numeroPrimosHasta (int ulti) {
-        int contador 0;
+        int contador = 0;
         for (int i = 1; i <= ulti; i++) {
-            return (esPrimo(i));
-            contador++;
+            if (esPrimo(i)){ 
+               contador++;
+            }
+            
         }
+        return contador;
     }
 }
