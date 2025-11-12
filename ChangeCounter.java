@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class ChangeCounter {
 /*   public static int countChange(final int money, final int[] coins) {
     int n = coins.length;
