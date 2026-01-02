@@ -4,7 +4,7 @@ public class Ej3Examen {
         int posicion = buscar(matricula, matriculas);
 
         if (posicion != -1) {
-            recaudacion[pos] += valor;
+            recaudacion[posicion] += valor;
         }
     }
 }

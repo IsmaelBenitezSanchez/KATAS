@@ -1,6 +1,6 @@
 public class Ej4Examen {
     public static String[] losAlquiladosOrden(int[] recaudacion, 
-    String[] matriculass) {
+    String[] matriculas) {
         int contador = 0;
         for (int i = 0; i < recaudacion.length; i++){
             if(recaudacion[i] > 0){
@@ -17,11 +17,10 @@ public class Ej4Examen {
         for (int i = 0; i < contador; i++){
             int posicionMax = posicionMasRentable(copiaRecaudacion);
 
-            resultado[i] = matriculas[posicionMax] + " " 
-            + copiaRecaudacion[posicionMax];
+            resultado[i] = matriculas[posicionMax] + " " + copiaRecaudacion[posicionMax];
 
             copiaRecaudacion[posicionMax] = 0;
         }
-        return resultado
+        return resultado;
     }
 }
