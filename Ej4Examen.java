@@ -1,6 +1,5 @@
 public class Ej4Examen {
-    public static String[] losAlquiladosOrden(int[] recaudacion, 
-    String[] matriculas) {
+    public static String[] losAlquiladosOrden(int[] recaudacion, String[] matriculas) {
         int contador = 0;
         for (int i = 0; i < recaudacion.length; i++){
             if(recaudacion[i] > 0){
